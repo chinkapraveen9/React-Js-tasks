@@ -12,13 +12,13 @@ import reportWebVitals from './reportWebVitals';
 // import Parent from "./accordian/parent"
 // import render from './accordian/child';
 // import Home from './cards/home/home';
-// import Sample from './task1';
 // import Toggleswitch from './toggleswitch';
 // import Counter from './Counter';
 // import Form from './sampleform.js/form';
 // import Unique from './functoncomponents';
 // import Adding from './functoncomponents';
 // import App from './projectr/code';
+import Sample from './task1';
 import Timetable from './reacttask2/reacttask2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -32,12 +32,13 @@ root.render(
     {/* <BasicExample/> */}
     {/* <Parent/> */}
     {/* <Home/> */}
-    {/* <Sample/> */}
+    
     {/* <Toggleswitch/> */}
     {/* <Counter/>    */}
     {/* <Unique/> */}
     {/* <Adding//> */}
   {/* <App/> */}
+  <Sample/>
   <Timetable/>
     
   </React.StrictMode>
