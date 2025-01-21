@@ -26,6 +26,7 @@ import Home from './reactjstasks/reacttask5/Home.js';
 import Homee from './reactjstasks/reacttask6/Homee.js';
 import Counter from './reactjstasks/reacttask7/Counter.js';
 import SampleForm from './reactjstasks/reacttask8/Form.js';
+import EvenOdd from './reactjstasks/reacttask9/index.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -52,6 +53,7 @@ root.render(
     <Homee/>
     <Counter/>
     <SampleForm/>
+    <EvenOdd/>
   </React.StrictMode>
 );
 
