@@ -30,6 +30,7 @@ import EvenOdd from "./reactjstasks/reacttask9/index.js";
 import ToDo from "./reactjstasks/reacttask10/ToDo.js";
 import DataLoading from "./reactjstasks/reacttask11/index.js";
 import ButtonCard from "./reactjstasks/reacttask12/index.js";
+import Counterr from "./reactjstasks/reacttask13/Counter.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -60,6 +61,7 @@ root.render(
     <ToDo />
     <DataLoading />
     <ButtonCard/>
+    <Counterr/>
   </React.StrictMode>
 );
 
