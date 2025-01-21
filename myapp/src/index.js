@@ -21,6 +21,7 @@ import reportWebVitals from './reportWebVitals';
 import Sample from './task1';
 import Timetable from './reactjstasks/reacttask2';
 import HomePage from './reactjstasks/reacttask3/homepage/home';
+import Main from './reactjstasks/reacttask4';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -42,6 +43,7 @@ root.render(
   <Sample/>
   <Timetable/>
   <HomePage/>
+  <Main/>
     
   </React.StrictMode>
 );
