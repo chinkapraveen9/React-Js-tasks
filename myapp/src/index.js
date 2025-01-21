@@ -23,6 +23,7 @@ import Timetable from './reactjstasks/reacttask2';
 import HomePage from './reactjstasks/reacttask3/homepage/home';
 import Main from './reactjstasks/reacttask4';
 import Home from './reactjstasks/reacttask5/Home.js';
+import Homee from './reactjstasks/reacttask6/Homee.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -46,7 +47,7 @@ root.render(
   <HomePage/>
   <Main/>
   <Home/>
-    
+    <Homee/>
   </React.StrictMode>
 );
 
