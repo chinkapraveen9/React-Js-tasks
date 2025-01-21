@@ -31,6 +31,7 @@ import ToDo from "./reactjstasks/reacttask10/ToDo.js";
 import DataLoading from "./reactjstasks/reacttask11/index.js";
 import ButtonCard from "./reactjstasks/reacttask12/index.js";
 import Counterr from "./reactjstasks/reacttask13/Counter.js";
+import FormComponent from "./reactjstasks/reacttask14/formevents.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -62,6 +63,8 @@ root.render(
     <DataLoading />
     <ButtonCard/>
     <Counterr/>
+    <FormComponent/>
+    
   </React.StrictMode>
 );
 
