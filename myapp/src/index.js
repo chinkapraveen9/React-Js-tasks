@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 // import Praveen from "./react1"
 // import Karthik from"./reactpr"
 // import Dhoni from "./fake"
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import BasicExample from './accordian/accordian1';
 // import Parent from "./accordian/parent"
 // import render from './accordian/child';
@@ -22,6 +22,7 @@ import Sample from './task1';
 import Timetable from './reactjstasks/reacttask2';
 import HomePage from './reactjstasks/reacttask3/homepage/home';
 import Main from './reactjstasks/reacttask4';
+import Home from './reactjstasks/reacttask5/Home.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -44,6 +45,7 @@ root.render(
   <Timetable/>
   <HomePage/>
   <Main/>
+  <Home/>
     
   </React.StrictMode>
 );
