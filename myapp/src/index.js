@@ -29,6 +29,7 @@ import SampleForm from "./reactjstasks/reacttask8/Form.js";
 import EvenOdd from "./reactjstasks/reacttask9/index.js";
 import ToDo from "./reactjstasks/reacttask10/ToDo.js";
 import DataLoading from "./reactjstasks/reacttask11/index.js";
+import ButtonCard from "./reactjstasks/reacttask12/index.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -58,6 +59,7 @@ root.render(
     <EvenOdd />
     <ToDo />
     <DataLoading />
+    <ButtonCard/>
   </React.StrictMode>
 );
 
