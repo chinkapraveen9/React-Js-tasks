@@ -1,13 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./index.css";
 // import App from './App';
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from "./reportWebVitals";
 // import Praveen from "./react1"
 // import Karthik from"./reactpr"
 // import Dhoni from "./fake"
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 // import BasicExample from './accordian/accordian1';
 // import Parent from "./accordian/parent"
 // import render from './accordian/child';
@@ -18,44 +18,46 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import Unique from './functoncomponents';
 // import Adding from './functoncomponents';
 // import App from './projectr/code';
-import Sample from './task1';
-import Timetable from './reactjstasks/reacttask2';
-import HomePage from './reactjstasks/reacttask3/homepage/home';
-import Main from './reactjstasks/reacttask4';
-import Home from './reactjstasks/reacttask5/Home.js';
-import Homee from './reactjstasks/reacttask6/Homee.js';
-import Counter from './reactjstasks/reacttask7/Counter.js';
-import SampleForm from './reactjstasks/reacttask8/Form.js';
-import EvenOdd from './reactjstasks/reacttask9/index.js';
-import ToDo from './reactjstasks/reacttask10/ToDo.js';
+import Sample from "./task1";
+import Timetable from "./reactjstasks/reacttask2";
+import HomePage from "./reactjstasks/reacttask3/homepage/home";
+import Main from "./reactjstasks/reacttask4";
+import Home from "./reactjstasks/reacttask5/Home.js";
+import Homee from "./reactjstasks/reacttask6/Homee.js";
+import Counter from "./reactjstasks/reacttask7/Counter.js";
+import SampleForm from "./reactjstasks/reacttask8/Form.js";
+import EvenOdd from "./reactjstasks/reacttask9/index.js";
+import ToDo from "./reactjstasks/reacttask10/ToDo.js";
+import DataLoading from "./reactjstasks/reacttask11/index.js";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* { <Praveen/>} */}
-    
-      {/* // <Karthik/>} */}
+
+    {/* // <Karthik/>} */}
     {/* <Dhoni/> */}
     {/* <BasicExample/> */}
     {/* <Parent/> */}
     {/* <Home/> */}
-    
+
     {/* <Toggleswitch/> */}
     {/* <Counter/>    */}
     {/* <Unique/> */}
     {/* <Adding//> */}
-  {/* <App/> */}
-  <Sample/>
-  <Timetable/>
-  <HomePage/>
-  <Main/>
-  <Home/>
-    <Homee/>
-    <Counter/>
-    <SampleForm/>
-    <EvenOdd/>
-    <ToDo/>
+    {/* <App/> */}
+    <Sample />
+    <Timetable />
+    <HomePage />
+    <Main />
+    <Home />
+    <Homee />
+    <Counter />
+    <SampleForm />
+    <EvenOdd />
+    <ToDo />
+    <DataLoading />
   </React.StrictMode>
 );
 
