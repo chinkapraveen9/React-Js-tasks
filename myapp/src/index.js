@@ -24,6 +24,7 @@ import HomePage from './reactjstasks/reacttask3/homepage/home';
 import Main from './reactjstasks/reacttask4';
 import Home from './reactjstasks/reacttask5/Home.js';
 import Homee from './reactjstasks/reacttask6/Homee.js';
+import Counter from './reactjstasks/reacttask7/Counter.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -48,6 +49,7 @@ root.render(
   <Main/>
   <Home/>
     <Homee/>
+    <Counter/>
   </React.StrictMode>
 );
 
